@@ -4,6 +4,7 @@ import sentencepiece as spm
 import torch
 import json
 
+#需要先下载一下官方的T5-base和分词器
 t5_file = r'D:\Python\PycharmProjects\DL_code_practice\usingT5model\T5-base'
 spm_path = r'D:\Python\PycharmProjects\DL_code_practice\usingT5model\T5-base\spiece.model'
 model = T5ForConditionalGeneration.from_pretrained(t5_file)
